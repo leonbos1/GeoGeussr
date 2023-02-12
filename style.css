@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    padding: 2vw;
+}
+
+.content {
+    padding: 2vw;
+    
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label {
+}
+
+.option {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+.checked {
+    /*mobile first radio option that is checked*/
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+
+}
